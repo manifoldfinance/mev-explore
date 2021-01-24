@@ -3,7 +3,7 @@ import json
 import sys
 import os
 
-from eth_tools.transfer_event_parser import TransferEventParser
+from mev_tools.transfer_event_parser import TransferEventParser
 
 mock_event = {
     "args": {

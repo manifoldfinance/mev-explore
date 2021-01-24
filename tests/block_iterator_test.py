@@ -3,7 +3,7 @@ from unittest.mock import PropertyMock, MagicMock, call
 import pytest
 from web3.types import BlockData
 
-from eth_tools.block_iterator import BlockIterator
+from mev_tools.block_iterator import BlockIterator
 
 
 def test_initialization(web3):

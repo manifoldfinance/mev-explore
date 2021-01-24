@@ -1,7 +1,7 @@
 from web3 import Web3
 from retry import retry
 
-from eth_tools.logger import logger
+from mev_tools.logger import logger
 
 
 class TransactionTracer:

@@ -15,5 +15,5 @@ setup(
     license="MIT",
     install_requires=["web3", "smart-open", "retry",],
     extras_require={"dev": ["pylint", "black", "pytest",]},
-    entry_points={"console_scripts": ["mev-tools=eth_tools.cli:run"]},
+    entry_points={"console_scripts": ["mev-tools=mev_tools.cli:run"]},
 )

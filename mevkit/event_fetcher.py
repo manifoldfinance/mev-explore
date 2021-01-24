@@ -11,9 +11,9 @@ from web3 import Web3
 from web3.contract import Contract
 from web3.types import FilterParams, LogReceipt
 
-from eth_tools.json_encoder import EthJSONEncoder
-from eth_tools.logger import logger
-from eth_tools.utils import smart_open
+from mev_tools.json_encoder import EthJSONEncoder
+from mev_tools.logger import logger
+from mev_tools.utils import smart_open
 
 
 @dataclass(repr=False)

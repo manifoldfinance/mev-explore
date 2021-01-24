@@ -2,7 +2,7 @@ import os
 
 import requests
 
-from eth_tools.logger import logger
+from mev_tools.logger import logger
 
 
 ETHERSCAN_API_URL = "https://api.etherscan.io/api"

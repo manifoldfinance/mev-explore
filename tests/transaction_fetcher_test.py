@@ -2,7 +2,7 @@ from unittest.mock import MagicMock, call
 
 import pytest
 
-from eth_tools import transaction_fetcher as tx_fetcher
+from mev_tools import transaction_fetcher as tx_fetcher
 
 DUMMY_ADDRESS = "0x" + ("0" * 40)
 MAX_CALLS = tx_fetcher.MAX_TRANSACTIONS // tx_fetcher.TRANSACTIONS_PER_PAGE + 1

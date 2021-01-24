@@ -2,7 +2,7 @@ import os
 import json
 
 from collections import defaultdict
-from eth_tools.logger import logger
+from mev_tools.logger import logger
 
 
 class TransferEventParser:

@@ -24,7 +24,7 @@ mev-tools fetch-events -a 0x6b175474e89094c44da98b954eedeac495271d0f --abi /path
 from web3 import Web3
 from web3.providers.auto import load_provider_from_environment
 
-from eth_tools.block_iterator import BlockIterator
+from mev_tools.block_iterator import BlockIterator
 
 
 provider = load_provider_from_environment()

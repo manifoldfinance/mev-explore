@@ -2,7 +2,7 @@ from typing import Collection, Iterable, List
 from web3 import Web3
 from web3.types import BlockData
 
-from eth_tools.logger import logger
+from mev_tools.logger import logger
 
 
 class Block:

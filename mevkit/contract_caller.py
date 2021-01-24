@@ -5,7 +5,7 @@ from web3 import Web3
 from web3.contract import Contract
 from retry import retry
 
-from eth_tools.logger import logger
+from mev_tools.logger import logger
 
 DEFAULT_BLOCK_INTERVAL = 1_000
 

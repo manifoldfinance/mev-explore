@@ -1,6 +1,6 @@
 import logging
 
-from eth_tools import constants
+from mev_tools import constants
 
 
 def _create_logger():
