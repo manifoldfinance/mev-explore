@@ -15,7 +15,7 @@ mev-tools fetch-blocks -s 10000000 -e 10000999 -o blocks.csv.gz
 ### Fetching events
 
 ```
-mev-tools fetch-events -a 0x6b175474e89094c44da98b954eedeac495271d0f --abi /path/to/abi.json -s 10000000 -e 10000999 -o events.jsonl.gz
+mevkit fetch-events -a 0x6b175474e89094c44da98b954eedeac495271d0f --abi /path/to/abi.json -s 10000000 -e 10000999 -o events.jsonl.gz
 ```
 
 ## Library usage
@@ -24,7 +24,7 @@ mev-tools fetch-events -a 0x6b175474e89094c44da98b954eedeac495271d0f --abi /path
 from web3 import Web3
 from web3.providers.auto import load_provider_from_environment
 
-from eth_tools.block_iterator import BlockIterator
+from mevkit.block_iterator import BlockIterator
 
 
 provider = load_provider_from_environment()
@@ -34,3 +34,8 @@ block_iterator = BlockIterator(web3, start_block=10_000_000, end_block=10_000_99
 for block in block_iterator:
     print(block.number)
 ```
+
+### License 
+
+GPL-2.0-Only
+
