@@ -12,7 +12,7 @@ setup(
     author_email="sam@freighttrust.com",
     url="https://github.com/sambacha/mevkit",
     download_url="https://github.com/sambacha/mevkit/archive/master.zip",
-    license="MIT",
+    license="GPL-2.0",
     install_requires=["web3", "smart-open", "retry",],
     extras_require={"dev": ["pylint", "black", "pytest",]},
     entry_points={"console_scripts": ["mev-tools=mev_tools.cli:run"]},
