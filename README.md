@@ -24,12 +24,7 @@ mevkit fetch-events -a 0x6b175474e89094c44da98b954eedeac495271d0f --abi /path/to
 from web3 import Web3
 from web3.providers.auto import load_provider_from_environment
 
-<<<<<<< HEAD
 from mev_tools.block_iterator import BlockIterator
-=======
-from mevkit.block_iterator import BlockIterator
->>>>>>> bf369c118fd1816f199a22a9d152b8ffb7a178bf
-
 
 provider = load_provider_from_environment()
 web3 = Web3(provider)
